@@ -1,6 +1,6 @@
 # Portfolio - Nina Perret
 
-This portfolio showcases a selection of my academic and personal projects completed during my engineering studies at Lycée du Parc and at Mines Saint-Etienne. 
+This portfolio showcases a selection of my academic projects completed during my engineering studies at Lycée du Parc and at Mines Saint-Etienne. 
 They highlight my skills in **embedded systems, cryptography, prototyping, data analysis and applied computer science**, combining both theoretical analysis and hands-on implementation.  
 
 
