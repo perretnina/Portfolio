@@ -2,33 +2,93 @@
 ---
 
 body {
-  background-color: #0a0a0a !important; /* Noir profond */
-  color: #e0e0e0 !important;
+  background-color: #0d1117 !important;
+  color: #c9d1d9 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+  line-height: 1.6;
 }
 
-h1, h2, h3 {
-  color: #ff007f !important; /* Rose électrique pour les titres */
-  text-shadow: 0 0 8px rgba(255, 0, 127, 0.5);
+.page-header {
+  background: linear-gradient(135deg, #1f1c2c 0%, #928dab 100%) !important;
+  padding: 4rem 2rem !important;
+  text-align: center;
+  border-bottom: 1px solid rgba(240, 246, 252, 0.1);
+}
+
+.project-name {
+  font-size: 2.8rem !important;
+  font-weight: 800 !important;
+  background: linear-gradient(90deg, #ff7eb3, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem !important;
+}
+
+.project-tagline {
+  color: #e2e8f0 !important;
+  font-size: 1.2rem !important;
+  font-weight: 400 !important;
+  opacity: 0.9;
+}
+
+.main-content {
+  max-width: 850px !important;
+  padding: 3rem 2rem !important;
+}
+
+h2 {
+  font-size: 1.6rem !important;
+  font-weight: 600 !important;
+  color: #ffffff !important;
+  margin-top: 3rem !important;
+  margin-bottom: 1.5rem !important;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(255, 126, 179, 0.3);
+}
+
+h2 + blockquote, 
+h2 ~ ul {
+  background: rgba(22, 27, 34, 0.7) !important;
+  border: 1px solid rgba(240, 246, 252, 0.1) !important;
+  border-radius: 12px !important;
+  padding: 1.5rem !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  margin-bottom: 2rem;
 }
 
 a {
-  color: #00d4ff !important; /* Bleu électrique pour les liens */
-  font-weight: bold;
+  color: #58a6ff !important;
+  text-decoration: none !important;
+  font-weight: 500;
+  transition: all 0.2s ease;
 }
 
 a:hover {
-  color: #ff007f !important;
+  color: #ff7eb3 !important;
+  text-decoration: underline !important;
 }
 
-/* Style des blocs de code */
 pre, code {
-  background-color: #1a1a1a !important;
-  color: #00d4ff !important;
-  border: 1px solid #333;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  color: #79c0ff !important;
+  border: 1px solid rgba(240, 246, 252, 0.1) !important;
+  border-radius: 6px !important;
+  padding: 0.2rem 0.4rem;
 }
 
-/* Pied de page et zones spéciales */
+pre code {
+  padding: 0;
+}
+
 .site-footer {
-  border-top: 1px solid #333;
-  color: #666;
+  background-color: #0d1117 !important;
+  border-top: 1px solid rgba(240, 246, 252, 0.1) !important;
+  text-align: center;
+  color: #8b949e !important;
+  padding: 3rem 0 !important;
+}
+
+.view-on-github {
+  display: none !important;
 }
