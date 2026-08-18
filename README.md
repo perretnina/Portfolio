@@ -31,7 +31,3 @@ They highlight my skills in **embedded systems, cryptography, prototyping, data 
 - Developed a Python program to analyze soil settlement beneath French nuclear power facilities
 - Processed over 50,000 records to extract, clean, and visualize geotechnical data
 - Due to confidentiality, the original Python scripts and raw data cannot be shared. This folder contains the internship report summarizing the work carried out.
-  
-## [C Programming Exercises](./C)
-
-## [STM32 Microcontroller Exercises](./STM32)
