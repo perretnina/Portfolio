@@ -1,1 +1,7 @@
+title: "Portfolio - Nina Perret"
+description: "Étudiante ingénieure en Informatique et Microélectronique"
+
 theme: jekyll-theme-cayman
+
+sass:
+  style: compressed

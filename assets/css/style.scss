@@ -1,0 +1,34 @@
+---
+---
+
+body {
+  background-color: #0a0a0a !important; /* Noir profond */
+  color: #e0e0e0 !important;
+}
+
+h1, h2, h3 {
+  color: #ff007f !important; /* Rose électrique pour les titres */
+  text-shadow: 0 0 8px rgba(255, 0, 127, 0.5);
+}
+
+a {
+  color: #00d4ff !important; /* Bleu électrique pour les liens */
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff007f !important;
+}
+
+/* Style des blocs de code */
+pre, code {
+  background-color: #1a1a1a !important;
+  color: #00d4ff !important;
+  border: 1px solid #333;
+}
+
+/* Pied de page et zones spéciales */
+.site-footer {
+  border-top: 1px solid #333;
+  color: #666;
+}
